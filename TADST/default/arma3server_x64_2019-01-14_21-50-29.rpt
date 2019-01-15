@@ -1,0 +1,623 @@
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\arma3server_x64.exe
+== "C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\arma3server_x64.exe"  -port=2302 "-config=C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\TADST\default\TADST_config.cfg" "-cfg=C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\TADST\default\TADST_basic.cfg" "-profiles=C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\TADST\default" -name=default -filePatching "-mod=argo;curator;heli;jets;kart;mark;orange;tacops;tank;@extDB3;@life_server;@infiSTAR_A3"
+
+Original output filename: Arma3Retail_Server_x64
+Exe timestamp: 2018/12/11 20:28:04
+Current time:  2019/01/14 21:50:29
+
+Type: Public
+Build: Stable
+Version: 1.88.145285
+
+Allocator: C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\Dll\tbb4malloc_bi_x64.dll [2017.0.0.0] [2017.0.0.0]
+PhysMem: 16 GiB, VirtMem : 131072 GiB, AvailPhys : 3.5 GiB, AvailVirt : 131068 GiB, AvailPage : 5.2 GiB
+=====================================================================
+
+21:50:29 Detected number of DLCs: 20
+21:50:30 DLC index:3 - unable to get DLC data
+21:50:30 ----------------------------------------- Dlcs -----------------------------------------
+21:50:30                                 name      appId   owned  installed  available   isDlc
+21:50:30                               Arma 3     107410     yes        yes        yes      no
+21:50:30                              Unknown         -1      no         no         no     yes
+21:50:30                          Arma 3 Zeus     275700     yes        yes        yes     yes
+21:50:30                   Arma 3 Helicopters     304380     yes        yes        yes     yes
+21:50:30                   Arma 3 Laws of War     571710     yes        yes        yes     yes
+21:50:30                  Arma 3 DLC Bundle 2     612480      no         no        yes     yes
+21:50:30                        Arma 3 Malden     639600     yes        yes        yes     yes
+21:50:30                         Arma 3 Tanks     798390      no         no        yes     yes
+21:50:30      Arma 3 Alpha Lite - expires now     228800      no         no         no     yes
+21:50:30                        Arma 3 Server     233780     yes        yes         no     yes
+21:50:30                    Arma 3 Soundtrack     249860      no         no         no     yes
+21:50:30                  Arma 3 DLC Bundle 1     304400     yes        yes        yes     yes
+21:50:30                       Arma 3 Samples     390500     yes        yes         no     yes
+21:50:30                          Arma 3 Apex     395180     yes        yes        yes     yes
+21:50:30                          Arma 3 Jets     601670      no         no        yes     yes
+21:50:30          Arma 3 Tac-Ops Mission Pack     744950      no         no        yes     yes
+21:50:30                          Arma 3 Maps     249861      no         no         no     yes
+21:50:30                Arma 3 Tactical Guide     249862      no         no         no     yes
+21:50:30                         Arma 3 Tools     233800     yes        yes         no     yes
+21:50:30                         Arma 3 Karts     288520     yes        yes        yes     yes
+21:50:30                      Arma 3 Marksmen     332350     yes        yes        yes     yes
+21:50:30 ----------------------------------------------------------------------------------------
+21:50:30 Cannot register unknown string STR_3DEN_CAMERA_NAME
+21:50:30 Cannot register unknown string STR_DIFF_SCENE_ONLY
+21:50:30 Cannot register unknown string STR_DIFF_SCENE_AND_MAP
+21:50:30 Initializing stats manager.
+21:50:30 Stats config disabled.
+21:50:30 sessionID: 2c09f253f233f3496efafbb24d3fdc72b3319f46
+21:50:37 Item str_a3_to_c01_m02_036_ta_mechanized_briefing_SOLDIERC_0 listed twice
+21:50:46 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayEditObject/Controls/B_OK/ (original bin\config.bin)
+21:50:46 Updating base class RscSliderH->RscXSliderH, by a3\editor_f\config.bin/RscDisplayEditObject/Slider/ (original bin\config.bin)
+21:50:46 Updating base class RscText->RscPicture, by a3\editor_f\config.bin/RscDisplayEditObject/Preview/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionLoad/Controls/B_OK/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionSave/Controls/B_OK/ (original bin\config.bin)
+21:50:46 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoScrollbars/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoHScrollbars/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoVScrollbars/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscLine/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscActiveText, by a3\ui_f\config.bin/RscActivePicture/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscButton, by a3\ui_f\config.bin/RscButtonTextOnly/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscShortcutButtonMain/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonEditor/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscIGUIShortcutButton/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscGearShortcutButton/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonMenu/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuOK/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuCancel/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuSteam/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscLoadingText/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscListBox, by a3\ui_f\config.bin/RscIGUIListBox/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscListNBox, by a3\ui_f\config.bin/RscIGUIListNBox/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackground/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUI/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUILeft/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIRight/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIBottom/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUITop/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUIDark/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/RscBackgroundLogo/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscMapControl, by a3\ui_f\config.bin/RscMapControlEmpty/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPicture, by a3\ui_f\config.bin/CA_Mainback/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Back/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Title_Back/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Black_Back/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscTitle, by a3\ui_f\config.bin/CA_Title/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/CA_Logo/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->CA_Logo, by a3\ui_f\config.bin/CA_Logo_Small/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscButton, by a3\ui_f\config.bin/CA_RscButton/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->CA_RscButton, by a3\ui_f\config.bin/CA_RscButton_dialog/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscActiveText, by a3\ui_f\config.bin/CA_Ok/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image2/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_text/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscVignette/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscMapControlTooltip/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class RscUnitInfo->RscUnitInfoAirNoWeapon, by a3\ui_f\config.bin/RscInGameUI/RscUnitInfoAir/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscInGameUI/RscTaskOverview/controls/TaskOverviewAssigned/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_OK/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Cancel/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Clear/ (original bin\config.bin)
+21:50:46 Updating base class ->RscText, by a3\ui_f\config.bin/RscDisplayCapture/controls/TimeLines/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonAverages/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonSavePreviousData/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonPreviousData/ (original bin\config.bin)
+21:50:46 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/IconPicture/ (original bin\config.bin)
+21:50:46 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcOwnedIconPicture/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcIconPicture/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/OverviewGroup/ (original bin\config.bin)
+21:50:46 Updating base class RscButton->RscButtonSearch, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/SearchButton/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonCancel/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonGameOptions/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenuSteam, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonBuyDLC/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonRevert/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonOK/ (original bin\config.bin)
+21:50:46 Updating base class RscListBox->RscCombo, by a3\ui_f\config.bin/RscDisplayCustomizeController/Steepness/ (original bin\config.bin)
+21:50:46 Updating base class ->RscStandardDisplay, by a3\ui_f\config.bin/RscDisplayControlSchemes/ (original bin\config.bin)
+21:50:46 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonCancel/ (original bin\config.bin)
+21:50:46 Updating base class RscButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonOK/ (original bin\config.bin)
+21:50:46 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayFileSelectImage/controls/OverviewPicture/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayFieldManual/Controls/ButtonCancel/ (original bin\config.bin)
+21:50:46 Cannot delete class B_KickOff, it is referenced somewhere (used as a base class probably).
+21:50:46 Updating base class RscButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMission/controls/ButtonCancel/ (original bin\config.bin)
+21:50:46 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonOK/ (original bin\config.bin)
+21:50:46 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonCancel/ (original bin\config.bin)
+21:50:46 Updating base class ->RscSubmenu, by a3\ui_f\config.bin/RscMainMenu/ (original bin\config.bin)
+21:50:46 Updating base class None->ActiveSensorsOn, by a3\ui_f\config.bin/CfgActions/ActiveSensorsOff/ (original bin\config.bin)
+21:50:46 Updating base class None->ListRightVehicleDisplay, by a3\ui_f\config.bin/CfgActions/ListLeftVehicleDisplay/ (original bin\config.bin)
+21:50:46 Updating base class None->ListPrevRightVehicleDisplay, by a3\ui_f\config.bin/CfgActions/ListPrevLeftVehicleDisplay/ (original bin\config.bin)
+21:50:46 Updating base class None->CloseRightVehicleDisplay, by a3\ui_f\config.bin/CfgActions/CloseLeftVehicleDisplay/ (original bin\config.bin)
+21:50:46 Updating base class None->NextModeRightVehicleDisplay, by a3\ui_f\config.bin/CfgActions/NextModeLeftVehicleDisplay/ (original bin\config.bin)
+21:50:46 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceMid/ (original bin\config.bin)
+21:50:46 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceLong/ (original bin\config.bin)
+21:50:46 Updating base class ->ctrlDefaultText, by a3\3den\config.bin/ctrlStatic/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlActiveText, by a3\3den\config.bin/ctrlActivePicture/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlDefaultText, by a3\3den\config.bin/ctrlStructuredText/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlControlsGroup, by a3\3den\config.bin/ctrlControlsGroupNoScrollbars/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlDefault, by a3\3den\config.bin/ctrlCheckbox/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlCheckbox, by a3\3den\config.bin/ctrlCheckboxBaseline/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+21:50:46 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+21:50:46 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_2/Controls/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_6/Controls/ (original a3\ui_f\config.bin)
+21:50:46 Updating base class ->ctrlControlsGroupNoScrollbars, by a3\3den\config.bin/Cfg3DEN/Attributes/Default/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlStatic, by a3\3den\config.bin/Cfg3DEN/Attributes/Title/Controls/Title/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->Controls, by a3\3den\config.bin/Cfg3DEN/Attributes/Toolbox/Controls/ (original a3\modules_f\config.bin)
+21:50:46 Updating base class ->Title, by a3\3den\config.bin/Cfg3DEN/Attributes/Toolbox/Controls/Title/ (original a3\3den\config.bin)
+21:50:46 Updating base class ->ctrlToolbox, by a3\3den\config.bin/Cfg3DEN/Attributes/Toolbox/Controls/Value/ (original a3\3den\config.bin)
+21:50:46 Updating base class I_1stRegiment->BaseGuer, by a3\missions_f_orange\config.bin/CfgORBAT/BIS/I_3rdRegiment/ (original a3\missions_f_epa\config.bin)
+21:50:46 Updating base class CounterMeasureFlare->, by a3\weapons_f_orange\config.bin/FlareShell/ (original a3\weapons_f_orange\config.bin)
+21:50:46 Updating base class Controls->, by a3\modules_f_tacops\config.bin/Cfg3DEN/Attributes/Toolbox/Controls/ (original a3\3den\config.bin)
+21:50:46 Updating base class Controls->, by a3\modules_f_tacops\config.bin/Cfg3DEN/Attributes/Combo/Controls/ (original a3\3den\config.bin)
+21:50:46 Updating base class Controls->, by a3\modules_f_tacops\config.bin/Cfg3DEN/Attributes/Slider/Controls/ (original a3\3den\config.bin)
+21:50:49 Initializing Steam Manager
+21:50:49 Starting initial content check.
+21:50:49 Steam Manager initialized.
+21:50:49 
+21:50:49 ==== Loaded addons ====
+21:50:49 
+21:50:49 dta\bin.pbo - 145285
+21:50:49 dta\core.pbo - 129618
+21:50:49 dta\languagecore_f.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\@infiSTAR_A3\addons\a3_infistar.pbo - unknown
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\@life_server\addons\life_server.pbo - unknown
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\@extDB3\addons\extdb3.pbo - unknown
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\armor_f_tank.ebo - 135661
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\cargoposes_f_tank.ebo - 128283
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\characters_f_tank.ebo - 133719
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\data_f_tank.ebo - 128203
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\dubbing_f_tank.ebo - 127958
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\editorpreviews_f_tank.ebo - 131632
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\functions_f_tank.ebo - 125996
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\languagemissions_f_tank.ebo - 136954
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\language_f_tank.ebo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\missions_f_tank.ebo - 130984
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\missions_f_tank_data.ebo - 128937
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\modules_f_tank.ebo - 129574
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\music_f_tank.ebo - 127912
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\props_f_tank.ebo - 131702
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\sounds_f_tank.ebo - 136239
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\structures_f_tank.ebo - 131803
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\ui_f_tank.ebo - 132532
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank\addons\weapons_f_tank.pbo - 135808
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\characters_f_tacops.ebo - 129739
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\data_f_tacops.ebo - 126731
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\dubbing_f_tacops.ebo - 129340
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\functions_f_tacops.ebo - 124382
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\languagemissions_f_tacops.ebo - 136607
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\language_f_tacops.ebo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\missions_f_tacops.ebo - 131995
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\modules_f_tacops.ebo - 134940
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\music_f_tacops.ebo - 124064
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\sounds_f_tacops.ebo - 123795
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops\addons\ui_f_tacops.ebo - 124116
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\air_f_orange.pbo - 132035
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\cargoposes_f_orange.pbo - 126225
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\characters_f_orange.pbo - 133719
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\data_f_orange.pbo - 121095
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\dubbing_f_orange.pbo - 121689
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\editorpreviews_f_orange.pbo - 123173
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\functions_f_orange.pbo - 128287
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\languagemissions_f_orange.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\language_f_orange.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\missions_f_orange.pbo - 126711
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\modules_f_orange.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\music_f_orange.pbo - 120725
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\props_f_orange.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\soft_f_orange.pbo - 132239
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\sounds_f_orange.pbo - 135584
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\structures_f_orange.pbo - 132196
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\supplies_f_orange.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\ui_f_orange.pbo - 123398
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange\addons\weapons_f_orange.pbo - 132847
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\anims_f_mark.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\characters_f_mark.pbo - 129739
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\data_f_mark.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\dubbing_f_mark.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\dubbing_f_mp_mark.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\functions_f_mark.pbo - 129645
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\functions_f_mp_mark.pbo - 129434
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\languagemissions_f_mark.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\languagemissions_f_mp_mark.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\language_f_mark.pbo - 136634
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\language_f_mp_mark.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\missions_f_mark.pbo - 122301
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\missions_f_mark_data.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\missions_f_mark_video.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\missions_f_mp_mark.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\missions_f_mp_mark_data.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\modules_f_mark.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\modules_f_mp_mark.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\music_f_mark.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\music_f_mark_music.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\sounds_f_mark.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\static_f_mark.pbo - 130728
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\structures_f_mark.pbo - 123419
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\supplies_f_mark.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\ui_f_mark.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\ui_f_mp_mark.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark\addons\weapons_f_mark.pbo - 131460
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\anims_f_kart.pbo - 123210
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\characters_f_kart.pbo - 133719
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\data_f_kart.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\languagemissions_f_kart.pbo - 136607
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\language_f_kart.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\missions_f_kart.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\missions_f_kart_data.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\modules_f_kart.pbo - 128288
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\modules_f_kart_data.pbo - 124178
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\soft_f_kart.pbo - 132531
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\sounds_f_kart.pbo - 125381
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\structures_f_kart.pbo - 123419
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\ui_f_kart.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart\addons\weapons_f_kart.pbo - 120217
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\air_f_jets.pbo - 132072
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\anims_f_jets.pbo - 123210
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\boat_f_destroyer.pbo - 132140
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\boat_f_jets.pbo - 129607
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\cargoposes_f_jets.pbo - 126225
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\characters_f_jets.pbo - 129739
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\data_f_destroyer.pbo - 132156
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\data_f_jets.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\data_f_sams.pbo - 132140
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\dubbing_f_jets.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\editorpreviews_f_destroyer.pbo - 132141
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\editorpreviews_f_jets.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\editorpreviews_f_sams.pbo - 132141
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\functions_f_destroyer.pbo - 132353
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\functions_f_jets.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\languagemissions_f_jets.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\language_f_destroyer.pbo - 136607
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\language_f_jets.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\language_f_sams.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\missions_f_jets.pbo - 130755
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\modules_f_jets.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\music_f_jets.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\props_f_destroyer.pbo - 132141
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\props_f_jets.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\sounds_f_jets.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\static_f_destroyer.pbo - 136117
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\static_f_jets.pbo - 131969
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\static_f_sams.pbo - 133561
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\ui_f_jets.pbo - 126137
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\weapons_f_destroyer.pbo - 132268
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\weapons_f_jets.pbo - 131383
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets\addons\weapons_f_sams.pbo - 132352
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\air_f_heli.pbo - 134954
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\anims_f_heli.pbo - 123210
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\boat_f_heli.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\cargoposes_f_heli.pbo - 126231
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\data_f_heli.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\dubbing_f_heli.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\functions_f_heli.pbo - 123022
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\languagemissions_f_heli.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\language_f_heli.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\missions_f_heli.pbo - 129397
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\missions_f_heli_data.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\missions_f_heli_video.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\modules_f_heli.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\music_f_heli.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\music_f_heli_music.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\soft_f_heli.pbo - 129742
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\sounds_f_heli.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\structures_f_heli.pbo - 134453
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\supplies_f_heli.pbo - 132806
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli\addons\ui_f_heli.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\data_f_curator.pbo - 134513
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\data_f_curator_music.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\functions_f_curator.pbo - 123333
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\language_f_curator.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\missions_f_curator.pbo - 121570
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\modules_f_curator.pbo - 128381
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator\addons\ui_f_curator.pbo - 130996
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\armor_f_argo.pbo - 129739
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\characters_f_patrol.pbo - 129998
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\data_f_argo.pbo - 128209
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\data_f_patrol.pbo - 121287
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\editorpreviews_f_argo.pbo - 121102
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\functions_f_patrol.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\languagemissions_f_patrol.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\language_f_argo.pbo - 136954
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\language_f_patrol.pbo - 136608
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\map_malden.pbo - 135888
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\map_malden_data.pbo - 135888
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\map_malden_data_layers.pbo - 135888
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\map_malden_scenes_f.pbo - 120026
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\missions_f_patrol.pbo - 126663
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\modules_f_patrol.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\music_f_argo.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\props_f_argo.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\rocks_f_argo.pbo - 123488
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\sounds_f_patrol.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\structures_f_argo.pbo - 128082
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\ui_f_patrol.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\vegetation_f_argo.pbo - 123488
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo\addons\weapons_f_patrol.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\air_f_exp.pbo - 133748
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\anims_f_exp.pbo - 126506
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\armor_f_exp.pbo - 129739
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\boat_f_exp.pbo - 129747
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\cargoposes_f_exp.pbo - 126224
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\characters_f_exp.pbo - 136616
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\data_f_exp.pbo - 128203
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\dubbing_f_exp.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\dubbing_radio_f_exp.pbo - 119458
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_chi.pbo - 119458
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_engfre.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_fre.pbo - 119457
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\editorpreviews_f_exp.pbo - 136616
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\functions_f_exp.pbo - 132366
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\languagemissions_f_exp.pbo - 136607
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\language_f_exp.pbo - 136607
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\map_data_exp.pbo - 136265
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\map_tanoabuka.pbo - 136265
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\map_tanoabuka_data.pbo - 135884
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\map_tanoabuka_data_layers.pbo - 121192
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\map_tanoabuka_data_layers_00_00.pbo - 121192
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\map_tanoa_scenes_f.pbo - 123527
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\missions_f_exp.pbo - 132366
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\missions_f_exp_data.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\missions_f_exp_video.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\modules_f_exp.pbo - 119459
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\music_f_exp.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\music_f_exp_music.pbo - 119477
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\props_f_exp.pbo - 135930
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\rocks_f_exp.pbo - 129683
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\soft_f_exp.pbo - 136527
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\sounds_f_exp.pbo - 131659
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\static_f_exp.pbo - 119478
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp.pbo - 133054
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp_civilian.pbo - 133663
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp_commercial.pbo - 136202
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp_cultural.pbo - 136265
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp_data.pbo - 133427
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp_industrial.pbo - 132886
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\structures_f_exp_infrastructure.pbo - 134367
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\supplies_f_exp.pbo - 129371
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\ui_f_exp.pbo - 123398
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\vegetation_f_exp.pbo - 135745
+21:50:49 C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion\addons\weapons_f_exp.pbo - 136739
+21:50:49 addons\3den.pbo - 136221
+21:50:49 addons\3den_language.pbo - 136608
+21:50:49 addons\a3.pbo - unknown
+21:50:49 addons\air_f.pbo - 135631
+21:50:49 addons\air_f_beta.pbo - 133761
+21:50:49 addons\air_f_epb.pbo - 132034
+21:50:49 addons\air_f_epc.pbo - 129848
+21:50:49 addons\air_f_gamma.pbo - 130580
+21:50:49 addons\animals_f.pbo - 135988
+21:50:49 addons\animals_f_beta.pbo - 123208
+21:50:49 addons\anims_f.pbo - 135988
+21:50:49 addons\anims_f_bootcamp.pbo - 123209
+21:50:49 addons\anims_f_data.pbo - 127133
+21:50:49 addons\anims_f_epa.pbo - 134499
+21:50:49 addons\anims_f_epc.pbo - 121358
+21:50:49 addons\anims_f_exp_a.pbo - 123209
+21:50:49 addons\anims_f_mod.pbo - 135280
+21:50:49 addons\armor_f.pbo - 129739
+21:50:49 addons\armor_f_beta.pbo - 135660
+21:50:49 addons\armor_f_epb.pbo - 135660
+21:50:49 addons\armor_f_epc.pbo - 135661
+21:50:49 addons\armor_f_gamma.pbo - 135661
+21:50:49 addons\baseconfig_f.pbo - 119457
+21:50:49 addons\boat_f.pbo - 132036
+21:50:49 addons\boat_f_beta.pbo - 132036
+21:50:49 addons\boat_f_epc.pbo - 131911
+21:50:49 addons\boat_f_gamma.pbo - 127529
+21:50:49 addons\cargoposes_f.pbo - 128420
+21:50:49 addons\characters_f.pbo - 136640
+21:50:49 addons\characters_f_beta.pbo - 133719
+21:50:49 addons\characters_f_bootcamp.pbo - 133719
+21:50:49 addons\characters_f_epa.pbo - 133719
+21:50:49 addons\characters_f_epb.pbo - 133719
+21:50:49 addons\characters_f_epc.pbo - 133719
+21:50:49 addons\characters_f_gamma.pbo - 133719
+21:50:49 addons\data_f.pbo - 136108
+21:50:49 addons\data_f_bootcamp.pbo - 129618
+21:50:49 addons\data_f_exp_a.pbo - 119457
+21:50:49 addons\data_f_exp_b.pbo - 119457
+21:50:49 addons\data_f_mod.pbo - 131534
+21:50:49 addons\data_f_warlords.pbo - 135843
+21:50:49 addons\drones_f.pbo - 132036
+21:50:49 addons\dubbing_f.pbo - 119457
+21:50:49 addons\dubbing_f_beta.pbo - 119457
+21:50:49 addons\dubbing_f_bootcamp.pbo - 119457
+21:50:49 addons\dubbing_f_epa.pbo - 119457
+21:50:49 addons\dubbing_f_epb.pbo - 119457
+21:50:49 addons\dubbing_f_epc.pbo - 119457
+21:50:49 addons\dubbing_f_gamma.pbo - 122449
+21:50:49 addons\dubbing_f_warlords.pbo - 136700
+21:50:49 addons\dubbing_radio_f.pbo - 119457
+21:50:49 addons\dubbing_radio_f_data_eng.pbo - 119457
+21:50:49 addons\dubbing_radio_f_data_engb.pbo - 119458
+21:50:49 addons\dubbing_radio_f_data_gre.pbo - 119458
+21:50:49 addons\dubbing_radio_f_data_per.pbo - 119458
+21:50:49 addons\dubbing_radio_f_data_vr.pbo - 119458
+21:50:49 addons\editorpreviews_f.pbo - 136616
+21:50:49 addons\editor_f.pbo - 121103
+21:50:49 addons\functions_f.pbo - 137107
+21:50:49 addons\functions_f_bootcamp.pbo - 129770
+21:50:49 addons\functions_f_epa.pbo - 119458
+21:50:49 addons\functions_f_epc.pbo - 119458
+21:50:49 addons\functions_f_exp_a.pbo - 122619
+21:50:49 addons\functions_f_warlords.pbo - 137634
+21:50:49 addons\languagemissions_f.pbo - 136607
+21:50:49 addons\languagemissions_f_beta.pbo - 136607
+21:50:49 addons\languagemissions_f_bootcamp.pbo - 136608
+21:50:49 addons\languagemissions_f_epa.pbo - 136607
+21:50:49 addons\languagemissions_f_epb.pbo - 136607
+21:50:49 addons\languagemissions_f_epc.pbo - 136607
+21:50:49 addons\languagemissions_f_exp_a.pbo - 136608
+21:50:49 addons\languagemissions_f_gamma.pbo - 136608
+21:50:49 addons\language_f.pbo - 136608
+21:50:49 addons\language_f_beta.pbo - 136608
+21:50:49 addons\language_f_bootcamp.pbo - 136608
+21:50:49 addons\language_f_epa.pbo - 136607
+21:50:49 addons\language_f_epb.pbo - 136608
+21:50:49 addons\language_f_epc.pbo - 136607
+21:50:49 addons\language_f_exp_a.pbo - 136607
+21:50:49 addons\language_f_exp_b.pbo - 136607
+21:50:49 addons\language_f_gamma.pbo - 136608
+21:50:49 addons\language_f_mod.pbo - 136608
+21:50:49 addons\language_f_warlords.pbo - 136955
+21:50:49 addons\map_altis.pbo - 135915
+21:50:49 addons\map_altis_data.pbo - 135904
+21:50:49 addons\map_altis_data_layers.pbo - 135913
+21:50:49 addons\map_altis_data_layers_00_00.pbo - 0000
+21:50:49 addons\map_altis_data_layers_00_01.pbo - 0000
+21:50:49 addons\map_altis_data_layers_01_00.pbo - 0000
+21:50:49 addons\map_altis_data_layers_01_01.pbo - 0000
+21:50:49 addons\map_altis_scenes_f.pbo - 119459
+21:50:49 addons\map_data.pbo - 134124
+21:50:49 addons\map_stratis.pbo - 135888
+21:50:49 addons\map_stratis_data.pbo - 135888
+21:50:49 addons\map_stratis_data_layers.pbo - 135888
+21:50:49 addons\map_stratis_scenes_f.pbo - 119459
+21:50:49 addons\map_vr.pbo - 135900
+21:50:49 addons\map_vr_scenes_f.pbo - 119459
+21:50:49 addons\misc_f.pbo - 119459
+21:50:49 addons\missions_f.pbo - 129735
+21:50:49 addons\missions_f_beta.pbo - 122470
+21:50:49 addons\missions_f_beta_data.pbo - 119459
+21:50:49 addons\missions_f_beta_video.pbo - 119459
+21:50:49 addons\missions_f_bootcamp.pbo - 129645
+21:50:49 addons\missions_f_bootcamp_data.pbo - 119459
+21:50:49 addons\missions_f_bootcamp_video.pbo - 119459
+21:50:49 addons\missions_f_data.pbo - 119459
+21:50:49 addons\missions_f_epa.pbo - 132519
+21:50:49 addons\missions_f_epa_data.pbo - 119459
+21:50:49 addons\missions_f_epa_video.pbo - 119459
+21:50:49 addons\missions_f_epb.pbo - 119459
+21:50:49 addons\missions_f_epc.pbo - 119459
+21:50:49 addons\missions_f_exp_a.pbo - 121496
+21:50:49 addons\missions_f_exp_a_data.pbo - 119459
+21:50:49 addons\missions_f_gamma.pbo - 133233
+21:50:49 addons\missions_f_gamma_data.pbo - 119459
+21:50:49 addons\missions_f_gamma_video.pbo - 119459
+21:50:49 addons\missions_f_video.pbo - 119459
+21:50:49 addons\missions_f_warlords.pbo - 137544
+21:50:49 addons\modules_f.pbo - 124453
+21:50:49 addons\modules_f_beta.pbo - 119459
+21:50:49 addons\modules_f_beta_data.pbo - 119459
+21:50:49 addons\modules_f_bootcamp.pbo - 119459
+21:50:49 addons\modules_f_data.pbo - 122470
+21:50:49 addons\modules_f_epb.pbo - 134655
+21:50:49 addons\modules_f_exp_a.pbo - 119459
+21:50:49 addons\modules_f_warlords.pbo - 136703
+21:50:49 addons\music_f.pbo - 119459
+21:50:49 addons\music_f_bootcamp.pbo - 119459
+21:50:49 addons\music_f_bootcamp_music.pbo - 119459
+21:50:49 addons\music_f_epa.pbo - 119459
+21:50:49 addons\music_f_epa_music.pbo - 119459
+21:50:49 addons\music_f_epb.pbo - 119459
+21:50:49 addons\music_f_epb_music.pbo - 119459
+21:50:49 addons\music_f_epc.pbo - 119459
+21:50:49 addons\music_f_epc_music.pbo - 119477
+21:50:49 addons\music_f_music.pbo - 119477
+21:50:49 addons\plants_f.pbo - 126807
+21:50:49 addons\props_f_exp_a.pbo - 129371
+21:50:49 addons\roads_f.pbo - 127271
+21:50:49 addons\rocks_f.pbo - 127271
+21:50:49 addons\signs_f.pbo - 136481
+21:50:49 addons\soft_f.pbo - 133870
+21:50:49 addons\soft_f_beta.pbo - 133871
+21:50:49 addons\soft_f_bootcamp.pbo - 129739
+21:50:49 addons\soft_f_epc.pbo - 136818
+21:50:49 addons\soft_f_gamma.pbo - 135248
+21:50:49 addons\sounds_f.pbo - 136618
+21:50:49 addons\sounds_f_arsenal.pbo - 127887
+21:50:49 addons\sounds_f_bootcamp.pbo - 119477
+21:50:49 addons\sounds_f_characters.pbo - 133117
+21:50:49 addons\sounds_f_environment.pbo - 120046
+21:50:49 addons\sounds_f_epb.pbo - 126923
+21:50:49 addons\sounds_f_epc.pbo - 125380
+21:50:49 addons\sounds_f_exp_a.pbo - 119477
+21:50:49 addons\sounds_f_mod.pbo - 131534
+21:50:49 addons\sounds_f_sfx.pbo - 119477
+21:50:49 addons\sounds_f_vehicles.pbo - 128448
+21:50:49 addons\static_f.pbo - 132364
+21:50:49 addons\static_f_beta.pbo - 132365
+21:50:49 addons\static_f_gamma.pbo - 122615
+21:50:49 addons\structures_f.pbo - 136213
+21:50:49 addons\structures_f_bootcamp.pbo - 123488
+21:50:49 addons\structures_f_data.pbo - 130046
+21:50:49 addons\structures_f_epa.pbo - 135441
+21:50:49 addons\structures_f_epb.pbo - 126137
+21:50:49 addons\structures_f_epc.pbo - 123407
+21:50:49 addons\structures_f_exp_a.pbo - 132665
+21:50:49 addons\structures_f_households.pbo - 129369
+21:50:49 addons\structures_f_ind.pbo - 136213
+21:50:49 addons\structures_f_mil.pbo - 135984
+21:50:49 addons\structures_f_wrecks.pbo - 129371
+21:50:49 addons\uifonts_f.pbo - 119478
+21:50:49 addons\uifonts_f_data.pbo - 128439
+21:50:49 addons\ui_f.pbo - 136109
+21:50:49 addons\ui_f_bootcamp.pbo - 119478
+21:50:49 addons\ui_f_data.pbo - 135221
+21:50:49 addons\ui_f_exp_a.pbo - 119478
+21:50:49 addons\weapons_f.pbo - 136759
+21:50:49 addons\weapons_f_beta.pbo - 133007
+21:50:49 addons\weapons_f_bootcamp.pbo - 124358
+21:50:49 addons\weapons_f_epa.pbo - 124514
+21:50:49 addons\weapons_f_epb.pbo - 124216
+21:50:49 addons\weapons_f_epc.pbo - 130416
+21:50:49 addons\weapons_f_gamma.pbo - 120217
+21:50:49 addons\weapons_f_mod.pbo - 136854
+21:50:49 
+21:50:49 =======================
+21:50:49 
+21:50:51 ============================================================================================= List of mods ===============================================================================================
+21:50:51 modsReadOnly = true
+21:50:51 safeModsActivated = false
+21:50:51 customMods = true
+21:50:51 hash = 'D93D54D69FC6063EDF9377A52CAFC0CEE1D1E63C'
+21:50:51 hashShort = '3fd09046'
+21:50:51                                               name |               modDir |    default |               origin |                                     hash | hashShort | fullPath
+21:50:51 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+21:50:51                                       @infiSTAR_A3 |         @infiSTAR_A3 |      false |             GAME DIR | 4b0a09165e1b007e61436763cced4fdb8f4fbf35 |  cf240671 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\@infiSTAR_A3
+21:50:51                                       @life_server |         @life_server |      false |             GAME DIR | 92429ef1d001fb5447328c3992fb367223ba7e86 |  14203138 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\@life_server
+21:50:51                                            @extDB3 |              @extDB3 |      false |             GAME DIR | fc2fba11513d2d95850f3dedcc1df4465c19283e |  5518e4df | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\@extDB3
+21:50:51                                       Arma 3 Tanks |                 tank |       true |             GAME DIR | 1687d1a28082a88df48d9a56f2f39bd547c059c4 |  df9a305a | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tank
+21:50:51                                     Arma 3 Tac-Ops |               tacops |       true |             GAME DIR | 681413cb6415a601f1e0728a6c25720be3d49ae4 |  e5ebfd02 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\tacops
+21:50:51                                 Arma 3 Laws of War |               orange |       true |             GAME DIR | 6e8274be7b769cfd0472e7a3034f95f80492ce83 |  eaa5b563 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\orange
+21:50:51                                    Arma 3 Marksmen |                 mark |       true |             GAME DIR | 8a4f6eb4dc1c96b47ea37bc1bafbe161df71dc93 |  267c31c4 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\mark
+21:50:51                                       Arma 3 Karts |                 kart |       true |             GAME DIR | 6b1e56eed8f1e8bf598576c32be2f440eda5bf1f |  5e2d7aba | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\kart
+21:50:51                                        Arma 3 Jets |                 jets |       true |             GAME DIR | 7483cc52ff5decc7a262a40353703f75663c70c2 |  5e99a6c1 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\jets
+21:50:51                                 Arma 3 Helicopters |                 heli |       true |             GAME DIR | 0d9b4822c62634ca9dac79f18f6efab669971211 |  3473e417 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\heli
+21:50:51                                        Arma 3 Zeus |              curator |       true |             GAME DIR | bc4789f5b4e1fc0cff757c153778678b2489d718 |  eaf13475 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\curator
+21:50:51                                      Arma 3 Malden |                 argo |       true |             GAME DIR | adc7fbd43eabf6acc97aef5f87b2b5e3f2b33b08 |  f784a4d6 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\argo
+21:50:51                                Arma 3 DLC Bundle 2 |           dlcbundle2 |       true |            NOT FOUND |                                          |           | 
+21:50:51                                Arma 3 DLC Bundle 1 |            dlcbundle |       true |            NOT FOUND |                                          |           | 
+21:50:51                                        Arma 3 Apex |            expansion |       true |             GAME DIR | 559a5cf8309fee9d3297b17f481dd23d0e7c1cdb |  578970e7 | C:\Program Files (x86)\Steam\steamapps\common\Arna 3 Servers\Arma 3 Server\expansion
+21:50:51                                             Arma 3 |                   A3 |       true |            NOT FOUND |                                          |           | 
+21:50:51 ==========================================================================================================================================================================================================
+21:50:51 InitSound ...
+21:50:51 InitSound - complete
+21:50:51 PhysX3 SDK Init started ...
+21:50:51 PhysX3 SDK Init ended.
+21:50:54 core\skyobject\skyobject.p3d: No geometry and no visual shape
+21:50:54 a3\data_f\krater.p3d: No geometry and no visual shape
+21:50:54 a3\data_f\koule.p3d: No geometry and no visual shape
+21:50:55 Warning Message: You cannot play/edit this mission; it is dependent on downloadable content that has been deleted.
+a3_characters_f
+21:50:55 Loading movesType CfgGesturesMale
+21:50:55 Animation a3\anims_f\data\anim\sdr\gst\gestureempty.rtm not found or empty
+21:50:55 MovesType CfgGesturesMale load time 196 ms
+21:50:55 Loading movesType CfgMovesMaleSdr
+21:51:03 MovesType CfgMovesMaleSdr load time 8455 ms
+21:51:03 a3\characters_f\proxies\flag.p3d: No geometry and no visual shape
+21:51:04 VoteThreshold must be in 0..1 range. Defaulting to 0.5
+Initializing Steam server - Game Port: 2302, Steam Query Port: 2303
+Steam AppId in current environment: 107410
+Connected to Steam servers
+Deinitialized shape [Class: "C_Soldier_VR_F"; Shape: "a3\characters_f_bootcamp\common\vr_soldier_f.p3d";]
+c:\bis\source\stable\futura\lib\network\networkserver.cpp ClearNetServer:NOT IMPLEMENTED - briefing!
+Extensions:

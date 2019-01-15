@@ -1,0 +1,5 @@
+13.01.2019 23:57:44: Aquaman (192.168.1.150:2304) 100dc190ada2a236a8bf0f7db63b022c - #0 "this allowDamage false; this enableSimulation false; this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "L"
+14.01.2019 00:04:15: Aquaman (192.168.1.150:2304) 100dc190ada2a236a8bf0f7db63b022c - #0 "this allowDamage false; this enableSimulation false; this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "L"
+14.01.2019 00:18:18: Aquaman (192.168.1.150:2304) 100dc190ada2a236a8bf0f7db63b022c - #0 "this allowDamage false; this enableSimulation false; this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "L"
+14.01.2019 19:52:27: Aquaman (192.168.1.150:2304) 100dc190ada2a236a8bf0f7db63b022c - #0 "this allowDamage false; this enableSimulation false; this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "L"
+14.01.2019 19:55:46: Aquaman (192.168.1.150:2304) 100dc190ada2a236a8bf0f7db63b022c - #0 "this allowDamage false; this enableSimulation false; this addAction[format ["%1 ($%2)",localize (getText(missionConfigFile >> "L"

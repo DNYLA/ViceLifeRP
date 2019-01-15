@@ -1,0 +1,18 @@
+﻿ 0:17:32 BattlEye Server: Initialized (v1.217)
+ 0:17:32 Game Port: 2302, Steam Query Port: 2303
+ 0:17:32 Host identity created.
+ 0:17:37 Aquaman uses modified data file
+ 0:17:37 Mission Altis_Life.Altis read from bank.
+ 0:17:38 BattlEye Server: Player #0 Aquaman (192.168.1.150:2304) connected
+ 0:17:38 Player Aquaman connecting.
+ 0:17:38 BattlEye Server: Connected to BE Master
+ 0:17:40 BattlEye Server: Player #0 Aquaman - BE GUID: 100dc190ada2a236a8bf0f7db63b022c
+ 0:17:41 Player Aquaman connected (id=76561198095943386).
+ 0:17:41 BattlEye Server: Verified GUID (100dc190ada2a236a8bf0f7db63b022c) of player #0 Aquaman
+ 0:17:44 Roles assigned.
+ 0:17:44 Reading mission ...
+ 0:18:13 Mission read.
+ 0:18:14 Successfull attempt to execute serverCommand '#exec users' by server.
+ 0:18:18 Player Aquaman kicked off by BattlEye: Script Restriction #0
+ 0:18:18 Player Aquaman disconnected.
+ 0:18:18 All users disconnected, waiting for users.
