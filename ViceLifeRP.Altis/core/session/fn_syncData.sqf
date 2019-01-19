@@ -10,8 +10,12 @@ _fnc_scriptName = "Player Synchronization";
 if (isNil "life_session_time") then {life_session_time = false;};
 if (life_session_time) exitWith {hint localize "STR_Session_SyncdAlready";};
 
+STR_Session_SyncdAlready;
+
 [] call SOCK_fnc_updateRequest;
-hint localize "STR_Session_SyncData";
+["Information",format [localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText]] call UPM_fnc_showNotification;];﻿
+["Successfull",format [localize "STR_Session_SyncData", localize _displayName,[_price] call life_fn
+
 [] spawn {
     life_session_time = true;
     sleep (5 * 60);

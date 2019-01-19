@@ -10,6 +10,9 @@ if (!hasInterface && !isServer) exitWith {
     [] call compile preprocessFileLineNumbers "\life_hc\initHC.sqf";
 }; //This is a headless client.
 
+//["Title","Content pf message"] call UPM_fnc_showNotification﻿﻿﻿
+//["Information",format [localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText]] call UPM_fnc_showNotification;];
+
 #define CONST(var1,var2) var1 = compileFinal (if (var2 isEqualType "") then {var2} else {str(var2)})
 #define LIFE_SETTINGS(TYPE,SETTING) TYPE(missionConfigFile >> "Life_Settings" >> SETTING)
 

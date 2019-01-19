@@ -15,35 +15,28 @@ class CfgSpawnPoints {
             class Kavala {
                 displayName = "Kavala";
                 spawnMarker = "civ_spawn_1";
-                icon = "textures\Icons\building_w.paa";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Athira {
                 displayName = "Athira";
                 spawnMarker = "civ_spawn_3";
-                icon = "textures\Icons\building_w.paa";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Pyrgos {
                 displayName = "Pyrgos";
                 spawnMarker = "civ_spawn_2";
-                icon = "textures\Icons\building_w.paa";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Sofia {
                 displayName = "Sofia";
                 spawnMarker = "civ_spawn_4";
-                icon = "textures\Icons\building_w.paa";
-                conditions = "";
-            };
-			
-			class Airport {
-                displayName = "Airport";
-                spawnMarker = "civ_spawn_5";
-                icon = "textures\Icons\airplane_w.paa";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 

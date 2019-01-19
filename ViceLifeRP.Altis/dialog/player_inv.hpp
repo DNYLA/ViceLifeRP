@@ -2,278 +2,485 @@
 
 class playerSettings {
     idd = playersys_DIALOG;
-    movingEnable = 1;
+    movingEnable = 0;
     enableSimulation = 1;
 
     class controlsBackground {
-        class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
-            idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.8;
-            h = (1 / 25);
-        };
-
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0, 0, 0, 0.7};
-            idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.8;
-            h = 0.6 - (22 / 250);
-        };
-
-        class Title: Life_RscTitle {
-            colorBackground[] = {0, 0, 0, 0};
-            idc = -1;
-            text = "$STR_PM_Title";
-            x = 0.1;
-            y = 0.2;
-            w = 0.8;
-            h = (1 / 25);
-        };
-
-        class moneyStatusInfo: Life_RscStructuredText {
+		class moneyStatusInfo: Life_RscStructuredText {
             idc = 2015;
             sizeEx = 0.020;
             text = "";
-            x = 0.105;
-            y = 0.30;
-            w = 0.3;
-            h = 0.6;
-        };
-
-        class PlayersName: Title {
-            idc = carry_weight;
-            style = 1;
-            text = "";
-        };
+			x = 0.391692 * safezoneW + safezoneX;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.206302 * safezoneW;
+			h = 0.033 * safezoneH;
+        };    
     };
 
     class controls {
-        class itemHeader: Life_RscText {
-            idc = -1;
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            text = "$STR_PM_cItems";
-            sizeEx = 0.04;
-            x = 0.62;
-            y = 0.26;
-            w = 0.275;
-            h = 0.04;
-        };
-
-        class licenseHeader: Life_RscText {
-            idc = -1;
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            text = "$STR_PM_Licenses";
-            sizeEx = 0.04;
-            x = 0.336;
-            y = 0.26;
-            w = 0.275;
-            h = 0.04;
-        };
-
-        class moneySHeader: Life_RscText {
-            idc = -1;
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            text = "$STR_PM_MoneyStats";
-            sizeEx = 0.04;
-            x = 0.11;
-            y = 0.26;
-            w = 0.219;
-            h = 0.04;
-        };
-
-        class itemList: Life_RscListBox {
-            idc = item_list;
-            sizeEx = 0.030;
-            x = 0.62;
-            y = 0.30;
-            w = 0.275;
-            h = 0.3;
-        };
-
-        class moneyEdit: Life_RscEdit {
-            idc = 2018;
-            text = "1";
-            sizeEx = 0.030;
-            x = 0.12;
-            y = 0.42;
-            w = 0.18;
-            h = 0.03;
-        };
-
-        class NearPlayers: Life_RscCombo {
-            idc = 2022;
-            x = 0.12;
-            y = 0.46;
-            w = 0.18;
-            h = 0.03;
-        };
-
-        class moneyDrop: Life_RscButtonMenu {
-            idc = 2001;
-            text = "$STR_Global_Give";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[] call life_fnc_giveMoney";
-            sizeEx = 0.025;
-            x = 0.135;
-            y = 0.50;
-            w = 0.13;
-            h = 0.036;
-        };
-
-        class itemEdit: Life_RscEdit {
-            idc = item_edit;
-            text = "1";
-            sizeEx = 0.030;
-            x = 0.62;
-            y = 0.61;
-            w = 0.275;
-            h = 0.03;
-
-        };
-
-        class iNearPlayers: Life_RscCombo {
-            idc = 2023;
-            x = 0.62;
-            y = 0.65;
-            w = 0.275;
-            h = 0.03;
-        };
-
-        class DropButton: Life_RscButtonMenu {
-            idc = 2002;
-            text = "$STR_Global_Give";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[] call life_fnc_giveItem;";
-            x = 0.765;
-            y = 0.70;
-            w = (5.25 / 40);
-            h = (1 / 25);
-        };
-
-        class UseButton: Life_RscButtonMenu {
-            text = "$STR_Global_Use";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[] call life_fnc_useItem;";
-            x = 0.62;
-            y = 0.70;
-            w = (5.25 / 40);
-            h = (1 / 25);
-        };
-
-        class RemoveButton: Life_RscButtonMenu {
-            text = "$STR_Global_Remove";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[] call life_fnc_removeItem;";
-            x = 0.475;
-            y = 0.70;
-            w = (5.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonClose: Life_RscButtonMenu {
-            idc = -1;
-            //shortcuts[] = {0x00050000 + 2};
-            text = "$STR_Global_Close";
-            onButtonClick = "closeDialog 0;";
-            x = 0.1;
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonSettings: Life_RscButtonMenu {
-            idc = -1;
-            text = "$STR_Global_Settings";
-            onButtonClick = "[] call life_fnc_settingsMenu;";
-            x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonMyGang: Life_RscButtonMenu {
-            idc = 2011;
-            text = "$STR_PM_MyGang";
-            onButtonClick = "if (isNil ""life_action_gangInUse"") then {if (isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
-            x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class Licenses_Menu : Life_RscControlsGroup {
-            idc = -1;
-            w = 0.28;
-            h = 0.38;
-            x = 0.34;
-            y = 0.30;
-
-            class Controls {
-                class Life_Licenses: Life_RscStructuredText {
-                    idc = 2014;
-                    sizeEx = 0.020;
-                    text = "";
-                    x = 0;
-                    y = 0;
-                    w = 0.27;
-                    h = 0.65;
-                };
-            };
-        };
-
-        class ButtonGangList: Life_RscButtonMenu {
-            idc = 2012;
-            text = "$STR_PM_WantedList";
-            onButtonClick = "[] call life_fnc_wantedMenu";
-            x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonKeys: Life_RscButtonMenu {
-            idc = 2013;
-            text = "$STR_PM_KeyChain";
-            onButtonClick = "createDialog ""Life_key_management"";";
-            x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonCell: Life_RscButtonMenu {
-            idc = 2014;
-            text = "$STR_PM_CellPhone";
-            onButtonClick = "createDialog ""Life_cell_phone"";";
-            x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonAdminMenu: Life_RscButtonMenu {
-            idc = 2021;
-            text = "$STR_PM_AdminMenu";
-            onButtonClick = "closeDialog 0; createDialog ""life_admin_menu"";";
-            x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-            y = 0.805;
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
-
-        class ButtonSyncData: Life_RscButtonMenu {
-            idc = -1;
-            //shortcuts[] = {0x00050000 + 2};
-            text = "$STR_PM_SyncData";
-            onButtonClick = "[] call SOCK_fnc_syncData;";
-            x = 0.1;
-            y = 0.805;
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
+		class PicTablet: Life_RscPicture
+		{
+			idc = 1201;
+			text = "textures\tablet.paa";
+			x = 0.293698 * safezoneW + safezoneX;
+			y = 0.225 * safezoneH + safezoneY;
+			w = 0.412603 * safezoneW;
+			h = 0.55 * safezoneH;
+		};
+		class ButtonInventory: Life_RscButtonMenu
+		{
+			idc = 2400;
+			onButtonClick = "createDialog ""Life_Inventory"";";
+			x = 0.334959 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class PicInventory: Life_RscPicture
+		{
+			idc = 1202;
+			text = "textures\Icons\Inventory.paa";
+			x = 0.345274 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class txtInventory: PMenu_RscStructuredText
+		{
+			idc = 1100;
+			text = "$STR_PM_Inventory"; //--- ToDo: Localize;
+			x = 0.340117 * safezoneW + safezoneX;
+			y = 0.412 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class ButtonMarket: Life_RscButtonMenu
+		{
+			idc = 2401;
+			x = 0.334959 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {1,1,1,1};
+		};
+		class ButtonSync: Life_RscButtonMenu
+		{
+		    onButtonClick = "[] call SOCK_fnc_syncData;";
+			idc = 2402;
+			x = 0.334959 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {1,1,1,1};
+		};
+		class ButtonPerks: Life_RscButtonMenu
+		{
+			idc = 2403;
+			x = 0.402007 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonGang: Life_RscButtonMenu
+		{
+			idc = 2405;
+			x = 0.536103 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonMobile: Life_RscButtonMenu
+		{
+			idc = 2406;
+			x = 0.603151 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonProfession: Life_RscButtonMenu
+		{
+			idc = 2407;
+			x = 0.402007 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonTBA23: Life_RscButtonMenu
+		{
+			idc = 2408;
+			x = 0.469055 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonTBA24: Life_RscButtonMenu
+		{
+			idc = 2409;
+			x = 0.536103 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonSettings: Life_RscButtonMenu
+		{
+			idc = 2410;
+			x = 0.603151 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonTBA35: Life_RscButtonMenu
+		{
+			idc = 2411;
+			x = 0.603151 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonKeyChain: Life_RscButtonMenu
+		{
+			idc = 2404;
+			x = 0.469055 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			onButtonClick = "createDialog ""Life_key_management"";";
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonTBA34: Life_RscButtonMenu
+		{
+			idc = 2412;
+			x = 0.536103 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonAdmin: Life_RscButtonMenu
+		{
+			idc = 2413;
+			x = 0.469055 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class ButtonPNC: Life_RscButtonMenu
+		{
+			idc = 2414;
+			x = 0.402007 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0618905 * safezoneW;
+			h = 0.088 * safezoneH;
+			colorBackground[] = {0.2,0.2,0.2,1};
+			colorActive[] = {0.4,0.4,0.4,1};
+		};
+		class PicPerks: Life_RscPicture
+		{
+			idc = 1200;
+			text = "textures\Icons\perks.paa";
+			x = 0.412322 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class txtMarket: PMenu_RscStructuredText
+		{
+			idc = 1101;
+			text = "$STR_PM_Market"; //--- ToDo: Localize;
+			x = 0.340117 * safezoneW + safezoneX;
+			y = 0.511 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtPerks: PMenu_RscStructuredText
+		{
+			idc = 1102;
+			text = "$STR_PM_Perks"; //--- ToDo: Localize;
+			x = 0.407164 * safezoneW + safezoneX;
+			y = 0.412 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtKeyChain: PMenu_RscStructuredText
+		{
+			idc = 1103;
+			text = "$STR_PM_KeyChain"; //--- ToDo: Localize;
+			x = 0.474212 * safezoneW + safezoneX;
+			y = 0.412 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtGang: PMenu_RscStructuredText
+		{
+			idc = 1104;
+			text = "$STR_PM_Gang"; //--- ToDo: Localize;
+			x = 0.54126 * safezoneW + safezoneX;
+			y = 0.412 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtMobile: PMenu_RscStructuredText
+		{
+			idc = 1105;
+			text = "$STR_PM_Mobile"; //--- ToDo: Localize;
+			x = 0.608309 * safezoneW + safezoneX;
+			y = 0.412 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtProfession: PMenu_RscStructuredText
+		{
+			idc = 1106;
+			text = "$STR_PM_Profession"; //--- ToDo: Localize;
+			x = 0.407164 * safezoneW + safezoneX;
+			y = 0.511 * safezoneH + safezoneY;
+			w = 0.0464179 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtTBA23: PMenu_RscStructuredText
+		{
+			idc = 1107;
+			text = "TBA23"; //--- ToDo: Localize;
+			x = 0.474212 * safezoneW + safezoneX;
+			y = 0.511 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtTBA24: PMenu_RscStructuredText
+		{
+			idc = 1108;
+			text = "TBA24"; //--- ToDo: Localize;
+			x = 0.54126 * safezoneW + safezoneX;
+			y = 0.511 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtSettings: PMenu_RscStructuredText
+		{
+			idc = 1109;
+			text = "$STR_PM_Settings"; //--- ToDo: Localize;
+			x = 0.608309 * safezoneW + safezoneX;
+			y = 0.511 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtSync: PMenu_RscStructuredText
+		{
+			idc = 1110;
+			text = "$STR_PM_SyncData"; //--- ToDo: Localize;
+			x = 0.340116 * safezoneW + safezoneX;
+			y = 0.61 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtPNC: PMenu_RscStructuredText
+		{
+			idc = 1111;
+			text = "$STR_PM_PNC"; //--- ToDo: Localize;
+			x = 0.407164 * safezoneW + safezoneX;
+			y = 0.61 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtAdmin: PMenu_RscStructuredText
+		{
+			idc = 1112;
+			text = "$STR_PM_Admin"; //--- ToDo: Localize;
+			x = 0.474212 * safezoneW + safezoneX;
+			y = 0.61 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtTBA34: PMenu_RscStructuredText
+		{
+			idc = 1113;
+			text = "TBA34"; //--- ToDo: Localize;
+			x = 0.54126 * safezoneW + safezoneX;
+			y = 0.61 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class txtTBA35: PMenu_RscStructuredText
+		{
+			idc = 1114;
+			text = "TBA35"; //--- ToDo: Localize;
+			x = 0.608308 * safezoneW + safezoneX;
+			y = 0.61 * safezoneH + safezoneY;
+			w = 0.0515754 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.1 * GUI_GRID_H;
+		};
+		class PicKeyChain: Life_RscPicture
+		{
+			idc = 1203;
+			text = "textures\Icons\keychain.paa";
+			x = 0.47937 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicGang: Life_RscPicture
+		{
+			idc = 1204;
+			text = "textures\Icons\gang.paa";
+			x = 0.546418 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicMobile: Life_RscPicture
+		{
+			idc = 1205;
+			text = "textures\Icons\mobile.paa";
+			x = 0.613466 * safezoneW + safezoneX;
+			y = 0.346 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicMarket: Life_RscPicture
+		{
+			idc = 1206;
+			text = "textures\Icons\market.paa";
+			x = 0.345274 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicProfession: Life_RscPicture
+		{
+			idc = 1207;
+			text = "textures\Icons\professions.paa";
+			x = 0.412322 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicTBA23: Life_RscPicture
+		{
+			text = "textures\Icons\TBA.paa";
+			idc = 1208;
+			x = 0.47937 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicTBA24: Life_RscPicture
+		{
+			text = "textures\Icons\TBA.paa";
+			idc = 1209;
+			x = 0.546418 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicSettings: Life_RscPicture
+		{
+			idc = 1210;
+			text = "textures\Icons\settings.paa";
+			x = 0.613466 * safezoneW + safezoneX;
+			y = 0.445 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		/*class RscPicture_1211: Life_RscPicture //dont know what this is
+		{
+			idc = 1211;
+			x = 0.372441 * safezoneW + safezoneX;
+			y = 0.578704 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		}; */
+		class PicSync: Life_RscPicture
+		{
+			idc = 1212;
+			text = "textures\Icons\sync.paa";
+			x = 0.345274 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicPNC: Life_RscPicture
+		{
+			idc = 1213;
+			text = "textures\Icons\PNC.paa";
+			x = 0.412322 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicAdmin: Life_RscPicture
+		{
+			idc = 1214;
+			text = "textures\Icons\admin.paa";
+			x = 0.47937 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicTBA34: Life_RscPicture
+		{
+			text = "textures\Icons\TBA.paa";
+			idc = 1215;
+			x = 0.546418 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class PicTBA35: Life_RscPicture
+		{
+			text = "textures\Icons\TBA.paa";
+			idc = 1216;
+			x = 0.613466 * safezoneW + safezoneX;
+			y = 0.544 * safezoneH + safezoneY;
+			w = 0.0412603 * safezoneW;
+			h = 0.066 * safezoneH;
+		};
+		class moneyStatusInfo: Life_RscStructuredText {
+            idc = 2015;
+            sizeEx = 0.020;
+            text = "";
+			x = 0.391692 * safezoneW + safezoneX;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.206302 * safezoneW;
+			h = 0.033 * safezoneH;
+        }; 
     };
 };
