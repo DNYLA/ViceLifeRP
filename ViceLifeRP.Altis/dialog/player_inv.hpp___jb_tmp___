@@ -477,9 +477,9 @@ class playerSettings {
             sizeEx = 0.020;
             text = "";
 			x = 0.391692 * safezoneW + safezoneX;
-            y = 0.320 * safezoneH + safezoneY;
-            w = 0.206302 * safezoneW;
-            h = 0.033 * safezoneH;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.206302 * safezoneW;
+			h = 0.033 * safezoneH;
         }; 
     };
 };

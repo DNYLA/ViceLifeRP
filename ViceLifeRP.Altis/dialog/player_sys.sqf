@@ -15,3 +15,4 @@
 #define rogue_text 2008
 #define carry_weight 2009
 #define item_edit 2010
+#define Inventory_DIALOG 2011

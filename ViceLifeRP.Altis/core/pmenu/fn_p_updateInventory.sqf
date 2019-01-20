@@ -1,33 +1,32 @@
 #include "..\..\script_macros.hpp"
 /*
-    File: fn_p_updateMenu.sqf
+    File: fn_p_updateInventory.sqf
     Author: Bryan "Tonic" Boardwine
 
     Description:
     Updates the player menu (Virtual Interaction Menu)
 */
+
+hint localize "STR_NOTF_enterAmountGive";
+
+createDialog "Life_Inventory"; //Creates Dialog for Fn_Inventory
+
 private ["_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_side","_struct"];
 disableSerialization;
 
-if (FETCH_CONST(life_adminlevel) < 1) then {
-    ctrlShow[2413, false]; //Admin button
-    ctrlShow[1112, false]; //Admin Text
-    ctrlShow[1214, false]; //Admin Icon
-};
-
 _side = switch (playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case independent:{"med"};};
 
-_inv = CONTROL(2001,2005);
-_lic = CONTROL(2001,2014);
-_near = CONTROL(2001,2022);
-_near_i = CONTROL(2001,2023);
-_mstatus = CONTROL(2001,2015);
+_inv = CONTROL(2011,2005);
+_lic = CONTROL(2011,2014);
+_near = CONTROL(2011,2022);
+_near_i = CONTROL(2011,2023);
+_mstatus = CONTROL(2011,2015);
 _struct = "";
 lbClear _inv;
 lbClear _near;
 lbClear _near_i;
 
-//Near players
+//Near playerSide
 _near_units = [];
 { if (player distance _x < 10) then {_near_units pushBack _x};} forEach playableUnits;
 {
@@ -39,7 +38,7 @@ _near_units = [];
     };
 } forEach _near_units;
 
-_mstatus ctrlSetStructuredText parseText format ["<img size='1.1' image='icons\ico_bank.paa'/> <t size='0.8px'>$%1</t><t>   <t/><img size='1.1' image='icons\ico_money.paa'/> <t size='0.8'>$%2</t>",[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+_mstatus ctrlSetStructuredText parseText format ["<img size='1.3' image='icons\ico_bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='icons\ico_money.paa'/> <t size='0.8'>$%2</t>",[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 ctrlSetText[2009,format ["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
 
 {

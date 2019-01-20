@@ -13,8 +13,7 @@ if (life_session_time) exitWith {hint localize "STR_Session_SyncdAlready";};
 STR_Session_SyncdAlready;
 
 [] call SOCK_fnc_updateRequest;
-["Information",format [localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText]] call UPM_fnc_showNotification;];﻿
-["Successfull",format [localize "STR_Session_SyncData", localize _displayName,[_price] call life_fn
+["Successful",format [localize "STR_Session_SyncData", localize _displayName,[_price] call life_fnc_numberText]] call UPM_fnc_showNotification;];﻿
 
 [] spawn {
     life_session_time = true;

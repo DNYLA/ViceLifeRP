@@ -148,6 +148,7 @@ class Life_Client_Core {
         file = "dialog\function";
         class bankDeposit {};
         class bankTransfer {};
+        class bankGive {};
         class bankWithdraw {};
         class displayHandler {};
         class gangDeposit {};
@@ -308,6 +309,7 @@ class Life_Client_Core {
         class keyMenu {};
         class p_openMenu {};
         class p_updateMenu {};
+        class p_updateInventory {};
         class pardon {};
         class removeItem {};
         class s_onChar {};
