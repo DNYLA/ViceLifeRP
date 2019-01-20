@@ -1,0 +1,12 @@
+/*
+    File: initServer.sqf
+    Author:
+
+    Description:
+    Starts the initialization of the server.
+*/
+
+[] call compile preprocessFileLineNumbers "\life_server\init.sqf";
+["Information",format [localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText] call UPM_fnc_showNotification];
+//["Information",format [localize "STR_ISTR_SelectItemFirst" ]] call UPM_fnc_showNotification;]; Call String Table
+//["Title","Content pf message"] call UPM_fnc_showNotification Call Without string tablke
