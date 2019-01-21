@@ -212,6 +212,7 @@ class Life_Client_Core {
         class pushObject {};
         class receiveItem {};
         class receiveMoney {};
+        class receiveWiredMoney {};
         class revealObjects {};
         class saveGear {};
         class simDisable {};
@@ -304,6 +305,7 @@ class Life_Client_Core {
         class cellphone {};
         class giveItem {};
         class giveMoney {};
+        class wireMoney {};
         class keyDrop {};
         class keyGive {};
         class keyMenu {};
