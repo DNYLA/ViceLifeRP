@@ -1,0 +1,2 @@
+//regex
+1 "" !=GroundWeaponHolder !=WeaponHolderSimulated !Supply[\d]{1,3} !=#lightpoint !=Land_ClutterCutter_small_F

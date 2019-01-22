@@ -1,0 +1,206 @@
+00c4406796d6d40ea5da9b701327f202 -1 Mystic
+e82445f009b9d63371ce19190f5d2661 -1 Mystic
+109.156.210.166 -1 Mystic
+f1b640ec28d350b484c55ca30bb4b6b2 -1 Monky
+6347e8acd55ad2506f88f430de9e5e57 -1 Scriptkid
+01b813f2de3351560b41b66ac94188cc -1 Scriptkid
+eca25cd3ecafb63ba5a21b6e0b13b69d -1 Scriptkid
+22d83cd06a383f3eda3c34631a6ebd03 -1 Scriptkid
+388d8a4b04e281ea6f7f33cd6c058a9b -1 Scriptkid
+497f071e76afcc1e662101b807c8954e -1 Scriptkid
+97ee898ff149e746694624e9c4140aa5 -1 Scriptkid
+c8e02a00328a46d300f278be9d3b423d -1 Scriptkid
+173.80.124.105 -1 Scriptkid
+173.80.119.222 -1 Scriptkid
+66.87.94.0 -1 Scriptkid
+66.87.92.80 -1 Scriptkid
+173.80.107.33 -1 Scriptkid
+101.160.152.154 -1 Scriptkid
+101.160.51.166 -1 Scriptkid
+124.180.78.1 -1 Scriptkid
+110.148.164.5 -1 Scriptkid
+93.190.141.112 -1 Came
+c3a61d4fca69c45498850410a855cdf3 -1 Came
+f740ad1ad28e10c3cf02e245eed2efb8 -1 Came
+f03870375f7b1bf172e6306d5c808e2b -1 Scriptkid
+73.50.177.216 -1 Scriptkid
+349e397e0a3650e82b26a09b196979e0 -1 Admin Ban
+70f333561e8823dcc87ea0a5ed019678 -1 Scripter
+d7487fe1b629c48185688fc10f43704c -1 Scripter
+24.4.151.123 -1 Hacker
+a526458c993322144a05ce682eba3c01 -1 Hacker
+8161e62686249ce2f9cf0dde9671968b -1 Hacker
+b24be4f1b2498c05763ae35155b48fab -1 Hacker
+e33d3ec17fa4150e94de8dee407afdfd -1 Hacker
+f97f59a605ee6e21f0ef9512305778dd -1 Hacker
+91.6.207.15 -1 Hacker
+9005eced4e1705bb43390423b177c10e -1 Hacker
+0138b4304d91ddfafe55da403bae45db -1 Hacker
+7155f00082e062b28f67e4eb51a9a9ea -1 Hacker
+45a01c80fbe2aa835383bb9690a530b3 -1 Hacker
+657b2a5494ccc0a2836e9a9a16c010ad -1 Hacker
+7f67391f347ed1dfd2bd2478b8fa5309 -1 ESP
+3f82264f73e65873691c1f7bed56da7c -1 Hacker
+e3b9a198eeebf8c4dc18f8038358bffb -1 Hacker
+23d8652850ade187dbe8f651a8d553ab -1 Hacker
+d08cee0a5b78c7d1d008d8bd78bcb939 -1 Hacker
+5ff16ca9c610e4dab40fee34b46d8f35 -1 Hacker
+4979639d629a58b792bb3ba974999939 -1 Hacker
+2af44839c4a45192ac385d581830cd88 -1 Hacker
+2dc9e110917f51c732b8bd488e49c675 -1 Hacker
+1c65a61a2a3bf2722a6954a8eb8af8da -1 Hacker
+3c01f93af6b4897f003177471c0fba85 -1 Hacker
+500aa01b713cf039873b3fd7cfef78b6 -1 Hacker
+b0eaf2b5a3ac67d3ca3ee166261d7dc6 -1 Hacker
+4f92d7b7f09ed2b7752da784193f6ac3 -1 Hacker
+07997ddb852aa9aefa82bd31b384417c -1 Hacker
+2c2d04662c5707f89ee0f128fece2fc1 -1 Hacker
+50c0812801260a026b69cdff36c5ccc9 -1 Hacker
+19b89fab559e5ce47645ffdc129dce4b -1 Hacker
+cd9b7bbcae9edacf7803bb31e936841c -1 Hacker
+3a4e0a70a6cc6274410946c3b011f5ae -1 Hacker
+557cd1e64ac7e34d9bcb2aff899a1b9b -1 Hacker
+56633ff57e4e1bd874688990b6cc566f -1 Hacker
+8ec6f67289c49796eb8e7ceecee3504d -1 Hacker
+2c5d454b3bc255e30020bd6b0a045904 -1 Hacker
+6f5096ef68a3a3165022168c76c404d9 -1 Hacker
+1bf60a7844b763b75584f3035b8236a5 -1 Hacker
+576e91a9e5e68133766dbc98937872d4 -1 Hacker
+71d8766f9b64efa5a8c3fda740069ab4 -1 Hacker
+fd43af9c1a5b5bdbdfafcdac824f648f -1 Hacker
+865548e7b6cb88f42a1163a7561d6c7d -1 Hacker
+91aa92a702ef29e8a667b553863f3451 -1 Hacker
+b067c49b94e0cbe2e4bd9aeed1d0ef54 -1 Hacker
+3e3b60519aab6fc2cd84d72a32071775 -1 Hacker
+e46ac5aa6bc67d24f604d6f5331917d7 -1 Hacker
+127b9b3505adffd9c5703325cb5939e3 -1 Hacker
+53c008a27fec453c92b7765d4e2e8cac -1 Hacker
+730431c221e79f9a16d0f901c25f1218 -1 Hacker
+3e27edafdc8e5c419d7115e72c361ac9 -1 Hacker
+2b7d143734382983e54a120f74089beb -1 Hacker
+a98b70f4159c535cd05438157c143c00 -1 Hacker
+0bb8733df7ef5d602cd0ce9e06ec94f1 -1 Hacker
+5338e8f0689fa99bd6209b5de803359e -1 Hacker
+588772fe8328e7c3f90d1b4b4eb4023d -1 Hacker
+e97a29579ccf4fa9fa2ef1c0667cfab0 -1 Hacker
+b5051445147bbb45c4affca541ba31ef -1 Hacker
+9e93baaa87a2405da714473ddbd9ef2c -1 Hacker
+4e90a0000ea07ecbe850c15f276b18b5 -1 Hacker
+12a4a25b99801d5a00f36394fe66648c -1 Hacker
+cd157735c87d652a466d886288232aa1 -1 Hacker
+8f22aae507f7364b0c49c2fd5b60de71 -1 Hacker
+8ce9af77511a07b89adc00114750bc8a -1 Hacker
+76959d4d7c19c8429ad9d35a9483efc7 -1 Hacker
+367657adc8054ca4d4e84de47aadcb78 -1 Hacker
+4acca7ad85a0d551bd49a3791ac9a8d9 -1 Hacker
+e0bb506f1f0b05d56bc4ae6dbc5263f8 -1 Hacker
+10558c2c70111840ea3596944b982690 -1 Hacker
+369931ab3595cb8b0061386df00f8baa -1 Hacker
+3925fcfce5eb806bea032ef41659687b -1 Hacker
+9c5d2f4ea0b0731535ce89dae28c944b -1 Hacker
+889a4df900cbb63a8c9788bd724637bc -1 Hacker
+91cadcffc18cf4d7772e90c7aa563baf -1 Hacker
+e9aa9b9eef8808571fb92ace72bfc55e -1 Hacker
+98.224.122.157 -1 Hacker
+70.116.144.252 -1 Hacker
+72.104.137.51 -1 Hacker
+79.161.160.221 -1 Hacker
+47.55.17.17 -1 Hacker
+47.55.21.228 -1 Hacker
+188.149.131.235 -1 Hacker
+198.50.231.29 -1 Hacker
+70.52.150.100 -1 Hacker
+198.50.246.228 -1 Hacker
+70.125.62.107 -1 Hacker
+111.69.164.6 -1 Hacker
+111.69.141.53 -1 Hacker
+111.69.166.36 -1 Hacker
+58.172.126.217 -1 Hacker
+111.69.166.155 -1 Hacker
+68.227.102.221 -1 Hacker
+111.69.139.245 -1 Hacker
+111.69.161.97 -1 Hacker
+111.69.141.83 -1 Hacker
+71.186.163.205 -1 Hacker
+104.156.251.124 -1 Hacker
+71.94.102.44 -1 Hacker
+99.41.157.248 -1 Hacker
+46.19.143.237 -1 Hacker
+142.4.196.101 -1 Hacker
+162.221.189.62 -1 Hacker
+108.61.229.141 -1 Hacker
+104.193.224.101 -1 Hacker
+104.156.244.169 -1 Hacker
+198.98.49.157 -1 Hacker
+108.61.169.183 -1 Hacker
+162.250.234.233 -1 Hacker
+209.141.34.117 -1 Hacker
+108.61.252.64 -1 Hacker
+74.110.202.99 -1 Hacker
+73.175.15.246 -1 Hacker
+67.215.250.148 -1 Hacker
+108.59.7.245 -1 Hacker
+173.57.101.193 -1 Hacker
+94.2.220.141 -1 Hacker
+2.241.42.236 -1 Hacker
+90.222.115.144 -1 Hacker
+82.25.227.90 -1 Hacker
+124.148.231.49 -1 Hacker
+90.206.94.150 -1 Hacker
+5.64.15.120 -1 Hacker
+176.25.89.2 -1 Hacker
+82.34.80.5 -1 Hacker
+82.27.255.187 -1 Hacker
+86.27.10.245 -1 Hacker
+86.31.198.2 -1 Hacker
+86.23.8.119 -1 Hacker
+90.203.206.37 -1 Hacker
+111.69.140.11 -1 Hacker
+76.31.135.167 -1 Hacker
+85.164.128.244 -1 Hacker
+85.164.1.182 -1 Hacker
+86.144.177.124 -1 Hacker
+81.234.251.226 -1 Hacker
+d459f18b7efb7dc987f9866a17fddd4e -1 Mystic
+f6b3b478939db9a2316213e96dfe3103 -1 [RSF]MrWho
+e07e0f8c2c91939376e109e10210c769 -1 Hacker
+ce939498f4397201d51680ef0ec0bca2 -1 Hacker
+2a0e35942f4dc94c2478190db8c4684d -1 Hacker
+88963e20a57cc3db8257cdeed16bce0e -1 Hacker
+7eba52fc78a79a6d8ce0b4ccf46c7449 -1 Hacker
+7eba52fc78a79a6d8ce0b4ccf46c7449 -1 Banned from life
+b7a445e138a1bf65cd630512082a7620 -1 Banned from life
+98d4432fda93a6523b95fd25b9539b62 -1 Banned from life
+beb7c2bbb2a363531711c42252a654f4 -1 Banned from life
+213.10.178.129 -1 Banned from life
+439fed4237880359ef039eac1673b7cd -1 Banned from life
+bbc08b726077fa6c317d424edbce9b76 -1 Banned from life
+1ced5f0060e0b963bb4be60bcabe0d1a -1 Very stupid Hacker
+fdf0b2334475429cc7a8112edf856928 -1 Very stupid Hacker
+f880bdd4bfdfbe8fa718210197d7c37c -1 Hacker
+b0431c55c5b7a60fbe7ae5d6cdfac488 -1 Hacker
+c51c4a615469a8687a42e3a4cb08cfe2 -1 Hacker
+a934309fb40e8e67a7f193e2d7d15dc4 -1 Hacker
+cc98582471d0756b0345b128c1bc42be -1 Very stupid Hacker
+3f870b39ddef899c24ba81bd4a6ee771 -1 Very stupid Hacker
+eba2843364bf65696d7caa658da3b044 -1 Very stupid Hacker
+fbcce37c7ae683ee736ff29803480fa6 -1 Very stupid Hacker
+f000bed74e8fb54f79b29aa02c58e27b -1 Very stupid Hacker
+4dddda8d5ecff7c586fe5e3207dcf9f2 -1 Very stupid Hacker
+bd91a12c6157a7efba604958e78db47d -1 Very stupid Hacker
+87.112.210.92 -1 Very stupid Hacker
+87.113.50.40 -1 Very stupid Hacker
+146.200.58.9 -1 Very stupid Hacker
+80.189.197.162 -1 Very stupid Hacker
+80.189.151.142 -1 Very stupid Hacker
+213.162.111.212 -1 Very stupid Hacker
+194.187.250.228 -1 Very stupid Hacker
+194.187.250.203 -1 Very stupid Hacker
+87.112.36.44 -1 Very stupid Hacker
+79.141.163.15 -1 Very stupid Hacker
+46.166.179.59 -1 Very stupid Hacker
+83.216.142.232 -1 Very stupid Hacker
+37.152.215.1 -1 Very stupid Hacker
+88.150.204.154 -1 Very stupid Hacker
+77.245.70.203 -1 Very stupid Hacker
+87.112.15.248 -1 Very stupid Hacker
