@@ -138,79 +138,77 @@ class Life_Create_Gang_Diag {
     name= "life_my_gang_menu_create";
     movingEnable = 0;
     enableSimulation = 1;
-    //onLoad = "[] spawn {waitUntil {!isNull (findDisplay 2520)};";
     onLoad = "[] spawn {waitUntil {!isNull (findDisplay 2520)}; ((findDisplay 2520) displayCtrl 2523) ctrlSetText format [localize ""STR_Gang_PriceTxt"",[(getNumber(missionConfigFile >> 'Life_Settings' >> 'gang_price'))] call life_fnc_numberText]};";
+
     class controlsBackground {
-        class picTablet: Life_RscPicture
-        {
-        	idc = 1200;
-        	text = "tablet.paa";
-        	x = 0.293698 * safezoneW + safezoneX;
-        	y = 0.225 * safezoneH + safezoneY;
-        	w = 0.412603 * safezoneW;
-        	h = 0.539 * safezoneH;
+        class Life_RscTitleBackground: Life_RscText {
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+            idc = -1;
+            x = 0.1;
+            y = 0.2;
+            w = 0.5;
+            h = (1 / 25);
         };
-        class Backgroundtxt: Life_RscStructuredText
-        {
-            idc = 1101;
-            x = 0.345274 * safezoneW + safezoneX;
-            y = 0.379 * safezoneH + safezoneY;
-            w = 0.299137 * safezoneW;
-            h = 0.242 * safezoneH;
-          colorBackground[] = {0.145,0.145,0.145,1};
-      };
+
+        class MainBackground: Life_RscText {
+            colorBackground[] = {0, 0, 0, 0.7};
+            idc = -1;
+            x = 0.1;
+            y = 0.2 + (11 / 250);
+            w = 0.5;
+            h = 0.3 - (22 / 250);
+        };
     };
 
     class controls {
-
-        class Title: PMenu_RscStructuredText
-        {
-        	idc = 1100;
-        	text = "Gang Management"; //--- ToDo: Localize;
-        	x = 0.345 * safezoneW + safezoneX;
-        	y = 0.35555556 * safezoneH + safezoneY;
-        	w = 0.299375 * safezoneW;
-        	h = 0.02444445 * safezoneH;
-        	colorBackground[] = {-1,-1,-1,1};
-        	sizeEx = 1.5;
+        class InfoMsg: Life_RscStructuredText {
+            idc = 2523;
+            sizeEx = 0.020;
+            text = "";
+            x = 0.1;
+            y = 0.25;
+            w = 0.5;
+            h = .11;
         };
 
-        class CreateGangText: Life_RscEdit
-        {
-        	idc = 2522;
-        	text = "$STR_Gang_YGN";
-        	x = 0.365904 * safezoneW + safezoneX;
-        	y = 0.467 * safezoneH + safezoneY;
-        	w = 0.247562 * safezoneW;
-        	h = 0.033 * safezoneH;
+        class Title: Life_RscTitle {
+            colorBackground[] = {0, 0, 0, 0};
+            idc = -1;
+            text = "$STR_Gang_Title";
+            x = 0.1;
+            y = 0.2;
+            w = 0.5;
+            h = (1 / 25);
         };
-        class InfoMsg: PMenu_RscStructuredText
-        {
-        	idc = 2523;
-        	text = "Enter your gang name below"; //--- ToDo: Localize;
-        	x = 0.36625 * safezoneW + safezoneX;
-        	y = 0.42444445 * safezoneH + safezoneY;
-        	w = 0.2375 * safezoneW;
-        	h = 0.02111112 * safezoneH;
-        	colorBackground[] = {0.145,0.145,0.145,1};
+
+        class CloseLoadMenu: Life_RscButtonMenu {
+            idc = -1;
+            text = "$STR_Global_Close";
+            onButtonClick = "closeDialog 0;[] call life_fnc_p_updateMenu;";
+            x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.5 - (1 / 25);
+            w = (6.25 / 40);
+            h = (1 / 25);
         };
-        class GangCreateField: PMenu_RscButtonMenu
-        {
-        	idc = -1;
-        	text = "Create"; //--- ToDo: Localize;
-        	onButtonClick = "[] call life_fnc_createGang";
-        	x = 0.406875 * safezoneW + safezoneX;
-        	y = 0.52222223 * safezoneH + safezoneY;
-        	w = 0.165 * safezoneW;
-        	h = 0.02333334 * safezoneH;
-        	colorBackground[] = {-1,-1,-1,1};
-        	class Attributes {
-                font = "RobotoCondensed";
-                color = "#ffffff";
-                align = "Center";
-                valign = "bottom";
-                shadow = 1;
-            };
+
+        class GangCreateField: Life_RscButtonMenu {
+            idc = -1;
+            text = "$STR_Gang_Create";
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+            onButtonClick = "[] call life_fnc_createGang";
+            x = 0.27;
+            y = 0.40;
+            w = (6.25 / 40);
+            h = (1 / 25);
+        };
+
+        class CreateGangText: Life_RscEdit {
+            idc = 2522;
+            text = "$STR_Gang_YGN";
+            x = 0.04 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.35;
+            w = (13 / 40);
+            h = (1 / 25);
         };
     };
 };

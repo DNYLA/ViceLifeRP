@@ -29,7 +29,7 @@ class playerSettings {
 		class ButtonInventory: Life_RscButtonMenu
 		{
 			idc = 2400;
-			onButtonClick = "[] call life_fnc_p_updateInventory;";
+			onButtonClick = "[] call life_fnc_p_openInventory;";
 			x = 0.334959 * safezoneW + safezoneX;
 			y = 0.346 * safezoneH + safezoneY;
 			w = 0.0618905 * safezoneW;
@@ -96,11 +96,13 @@ class playerSettings {
 			h = 0.088 * safezoneH;
 			colorBackground[] = {0.2,0.2,0.2,1};
 			colorActive[] = {0.4,0.4,0.4,1};
+			onButtonClick = "if (isNil ""life_action_gangInUse"") then {if (isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
 		};
 		class ButtonMobile: Life_RscButtonMenu
 		{
 			idc = 2406;
 			x = 0.603151 * safezoneW + safezoneX;
+			onButtonClick = "createDialog ""Life_cell_phone"";";
 			y = 0.346 * safezoneH + safezoneY;
 			w = 0.0618905 * safezoneW;
 			h = 0.088 * safezoneH;
@@ -477,9 +479,10 @@ class playerSettings {
             sizeEx = 0.020;
             text = "";
 			x = 0.391692 * safezoneW + safezoneX;
-            y = 0.320 * safezoneH + safezoneY;
-            w = 0.206302 * safezoneW;
-            h = 0.033 * safezoneH;
+			y = 0.313 * safezoneH + safezoneY;
+			w = 0.206302 * safezoneW;
+			h = 0.033 * safezoneH;
         }; 
     };
 };
+                           

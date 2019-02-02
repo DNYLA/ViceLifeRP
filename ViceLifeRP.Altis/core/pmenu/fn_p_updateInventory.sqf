@@ -7,10 +7,6 @@
     Updates the player menu (Virtual Interaction Menu)
 */
 
-hint localize "STR_NOTF_enterAmountGive";
-
-createDialog "Life_Inventory"; //Creates Dialog for Fn_Inventory
-
 private ["_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_side","_struct"];
 disableSerialization;
 

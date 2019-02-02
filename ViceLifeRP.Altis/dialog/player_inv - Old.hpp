@@ -74,6 +74,7 @@ class playerSettings {
 			y = 0.313 * safezoneH + safezoneY;
 			w = 0.0722056 * safezoneW;
 			h = 0.132 * safezoneH;
+			onButtonClick = "if (isNil ""life_action_gangInUse"") then {if (isNil {(group player) getVariable ""gang_owner""}) then {createDialog ""Life_Create_Gang_Diag"";} else {[] spawn life_fnc_gangMenu;};};";
 		};
 		class ButtonMobile: Life_RscButtonMenu
 		{

@@ -12,11 +12,12 @@ _unit = call compile format ["%1",(lbData[2703,(lbCurSel 2703)])];
 if (isNull _unit) exitWith {};
 if ((lbCurSel 2703) isEqualTo -1) exitWith {hint localize "STR_ATM_NoneSelected"};
 if (isNil "_unit") exitWith {hint localize "STR_ATM_DoesntExist"};
-if (_value > LIFE_SETTINGS(getNumber, "max_money_atm")) exitWith {hint localize "STR_ATM_TransferMax";};
+if (_value > 20000000) exitWith {hint localize "STR_ATM_TransferMax";};
 if (_value < 0) exitWith {};
 if (!([str(_value)] call TON_fnc_isnumber)) exitWith {hint localize "STR_ATM_notnumeric"};
 if (_value > BANK) exitWith {hint localize "STR_ATM_NotEnoughFunds"};
 _tax = _value * LIFE_SETTINGS(getNumber,"bank_transferTax");
+if (_value < 100 && BANK > 20000000) exitWith {hint localize "STR_ATM_WithdrawMin"}; //Temp fix for something.
 if ((_value + _tax) > BANK) exitWith {hint format [localize "STR_ATM_SentMoneyFail",_value,_tax]};
 
 BANK = BANK - (_value + _tax);

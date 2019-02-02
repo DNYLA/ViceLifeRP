@@ -275,6 +275,7 @@ class PMenu_RscStructuredText {
         font = "RobotoCondensed";
         color = "#ffffff";
         align = "Center";
+        valign = "bottom";
         shadow = 1;
     };
 };

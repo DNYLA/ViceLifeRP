@@ -310,6 +310,7 @@ class Life_Client_Core {
         class keyGive {};
         class keyMenu {};
         class p_openMenu {};
+        class p_openInventory {};
         class p_updateMenu {};
         class p_updateInventory {};
         class pardon {};
